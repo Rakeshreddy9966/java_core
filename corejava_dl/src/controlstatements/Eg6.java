@@ -23,7 +23,7 @@ public class Eg6 {
 		int j = 5;
 		while(j >=0) {
 			System.out.println(j);
-			j--;
+			j++;
 
 	}
 	}

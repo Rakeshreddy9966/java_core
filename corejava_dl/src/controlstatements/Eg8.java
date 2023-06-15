@@ -6,9 +6,9 @@ public class Eg8 {
 		//break (stop iteration)
 		//continue( skip  iteration)
 		
-		for( int j = 0;j<15; j++);{
+		for( int j = 0;j<15; j++){
 		
-		if( j== 5) {
+		if( j == 5) {
 			break;
 		}
 		System.out.println(j);

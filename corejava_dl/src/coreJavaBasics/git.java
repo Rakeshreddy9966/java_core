@@ -9,5 +9,6 @@ public class git {
 	 
 	 git status
 	 git add .
+	 git commit - m " wrapper class"
 	 git push*/
 }
