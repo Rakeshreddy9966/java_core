@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.dl.six.P3"/>
+    <fullyQualifiedTypeName name="com.dl.one.Eg1"/>
+    <fullyQualifiedTypeName name="com.dl.three.Eg3"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

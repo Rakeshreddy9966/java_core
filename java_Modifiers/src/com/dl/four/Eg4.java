@@ -4,7 +4,7 @@ import com.dl.three.Eg3;
 
 public class Eg4 {
 	public static void main(String[] args) {
-		new Eg3().m1();
+	//	new Eg3().m1();
 	}
 
 }
