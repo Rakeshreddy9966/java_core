@@ -35,7 +35,7 @@ public class Profile {
 		
 	}
 	public static void main(String[] args) {
-		Profile profile = new Profile("Rakesh", "rakesh@gmail.com", 963852741L, 10000.0, "hyd");
+		Profile profile = new Profile("Rakesh", "rakesh@gmail.com", 9966473596L, 1000000.0, "hyd");
 		profile.display();
 		
 	}
