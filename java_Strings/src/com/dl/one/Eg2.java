@@ -1,26 +1,28 @@
 package com.dl.one;
 
+import java.util.Scanner;
+
+
 
 public class Eg2{
-
-	public void m1(int a,int b) {
-		System.out.println(a+b);
-	}
 	
-	public void m1(int a , int b ,int c) {
-		System.out.println(a/b/c);
-	}
-	public static void m1(String a ,Long b) {
-		System.out.println("abbbbb" + 874569846L);
-	}
 	
+		
 	public static void main(String[] args) {
-		Eg2 eg2 = new Eg2();
-		eg2.m1(50, 30);
-		m1("fgbnmujm", 852684L);
-		eg2.m1(5, 10, 10);
-	}
+		String s1 = new String("A");
+		String s2 = new String ("B");
+		String s3 = new String("A");
+		
+		System.out.println(s1.compareTo(s2));//-1 65-66
+		System.out.println(s2.compareTo(s3));//1  66-65
+		System.out.println(s1.compareTo(s3));//0 65-65
+		
+		
+		String s4 = new String("A");
+		String s5 = new String ("a");
+		System.out.println(s4.compareTo(s5));  // -32  65-97 
+		System.out.println(s2.compareToIgnoreCase(s5)); // 0 63-65
+		
+		
 }
-
-        
-  
+}
