@@ -6,11 +6,11 @@ public static void main(String[] args) {
 	char[] charArray = s1.toCharArray();
 	charArray[6]= 'j';
 	System.out.println("charAray");
-	
+	                      //0123456
 	String s2 = new String("programming");
 	System.out.println(s2.charAt(0));
 	System.out.println(s2.charAt(5));
-	System.out.println(s2.charAt(20));
+	System.out.println(s2.charAt(20));// java.lang.StringIndexOutOfBoundsException
 			
 }
 }
