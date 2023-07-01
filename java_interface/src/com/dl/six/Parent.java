@@ -1,9 +1,11 @@
 package com.dl.six;
 
-public abstract class Parent {
+public  abstract class Parent {
 	
-	abstract void m3();
 	
-	abstract void m4();
+	public void m3() {
+		System.out.println("m3 method");
+	}
+	 abstract void m4();
 
 }
